@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sahni Portfolio</title>
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <link rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="./css/header.css" type="text/css">
+    <link rel="stylesheet" href="./css/home.css" type="text/css">
+    <link rel="stylesheet" href="./css/projects.css" type="text/css">
+    <link rel="stylesheet" href="./css/footer.css" type="text/css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header-logo">Sahni</a>
+        <nav class="nav">
+            <div class="toggle"></div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="about.html">About</a></li>
+                <li class="nav-item"><a href="#select-projects">Projects</a></li>
+                <li class="nav-item"><a href="#">Photos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container home-section">
+        <section id="home">
+            <div class="landing-page-details">
+                <h1 class="small-title">Hi,</h1>
+                <h2 class="big-title">I'm <span class="my-name pink">Sahni</span></h2>
+                <h3 class="medium-title"><em>Web development enthusiast </em></h3>
+                <div class="short-bio">
+                    <p>I am a 3rd year btech student, pursuing my degree from IPS Academy.I'm a web development and AI
+                        enthusiast.
+                        I believe luck favors the hardwork</p>
+                </div>
+
+            </div>
+            <div class="art-me">
+                <img src="img/mee.jpg" alt="error">
+            </div>
+            <div class="landing-page-socials">
+                <ul>
+                    <li class="social-link">
+                        <a href="https://www.linkedin.com/in/sahni-k-857b97253/" aria-label="LinkedIn" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="https://github.com/Sahni06" aria-label="GitHub" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-link">
+                        <a href="#" aria-label="Instagram" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- PROJECT SECTION -->
+        <section class="projects" id="select-projects">
+            <h2>Select Projects</h2>
+            <p class="section-description">
+                Here are some personal projects I have worked on.<br>
+                You can find it on<a class="hyperlink" href="https://github.com/Sahni06"> GitHub</a>.
+            </p>
+            <div class="project-cards-container">
+                <div class="card">
+                    <img src="img/project-preview/orboscreenshot.png" alt="Project Preview " class="card-preview-img">
+                    <div class="card-info">
+                        <div class="title-and-links">
+                            <span class="project-title">
+                                ORBO
+                            </span>
+                        </div>
+                        <div class="project-skills">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Javascript</span>
+                        </div>
+                        <p class="project-description">
+                            This is a orphanage-donation website I made for college project. It
+                            is a basic website built with HTML,CSS,Javascript and php
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <!-- //skill section -->
+        <section id="skills">
+            <h2>Key Skills</h2>
+            <div class="skill">
+                <h3><i class="fab fa-html5"></i> HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-css3-alt"></i> CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-js-square"></i> JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-react"></i> C++</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3><i class="fab fa-node-js"></i> Node.js</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 55%;"></div>
+                </div>
+            </div>
+        </section>
+<section>
+    <!-- contact form -->
+    <h2>Contact Me</h2>
+        <div class="container" id="contact">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-media">
+                <h2>Socials</h2>
+                <a href="https://github.com/Sahni06" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/sahni-k-857b97253/
+                " target="_blank">Linkdin</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </section>
+
+        <div class="cta-container">
+            <a href="/projects" class="cta">
+                <img src="./img/coding.svg" alt="Code Icon">
+                <span>Explore More</span>
+            </a>
+        </div>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer">
+            <div class="footer-column">
+               
+                <span class="copyright"><i class="fa-regular fa-copyright"></i> Sahni 
+                    2022-2026</span>
+            </div>
+            <div class="footer-column">
+                <a href="about.html" class="footer-button">
+                    <img src="./img/smile.svg" alt="Smile Icon">
+                    About
+                </a>
+                <a href="/projects" class="footer-button">
+                    <img src="./img/coding.svg" alt="Code Icon">
+                    Projects
+                </a>
+            </div>
+            <div class="footer-column">
+                <a href="#" class="footer-button">
+                    <img src="./img/camera.svg" alt="Camera Icon">
+                    Photos
+                </a>
+                <a href="#contact" class="footer-button">
+                    <img src="./img/email.svg" alt="Email Icon">
+                    Contact
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
